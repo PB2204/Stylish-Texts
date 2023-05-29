@@ -99,6 +99,28 @@ body {
     cursor: pointer;
   }
   
+  footer {
+    position: relative;
+    text-align: center;
+    color: #000;
+    /* background-color: antiquewhite; */
+    font-size: 25px;
+    font-weight: 600;
+    bottom: 2px !important;
+    padding: 10px;
+  }
+
+  footer a {
+    text-decoration: none;
+  }
+
+  footer span {
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: crimson;
+  }
+
   @media all and (min-width: 375px) {
     li {
       flex: 0 0 70vw;
